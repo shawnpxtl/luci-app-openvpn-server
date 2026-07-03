@@ -1,7 +1,7 @@
 
 config openvpn 'myvpn'
 	option enabled '0'
-	option proto 'tcp-server'
+	option proto 'udp4'
 	option port '6480'
 	option ddns 192.168.2.1
 	option dev 'tun'
