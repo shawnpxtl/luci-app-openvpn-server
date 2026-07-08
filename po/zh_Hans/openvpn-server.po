@@ -85,7 +85,7 @@ msgstr "一键下载 .ovpn 文件"
 msgid ""
 "If you are using IOS client, please download this .ovpn file and send it via "
 "QQ or Email to your IOS device"
-msgstr "如果你使用的是 iOS 设备，你可以使用 QQ 或者邮件发送到自己的设备上用 OpenVPN 客户端打开导入"
+msgstr "如果你使用的是 iOS 10 之前的设备，你可以使用 QQ 或者邮件发送到自己的设备上用 OpenVPN 客户端打开导入"
 
 #: applications/luci-app-openvpn-server/luasrc/model/cbi/openvpn-server/openvpn-server.lua:51
 msgid "Renew OpenVPN certificate files"
