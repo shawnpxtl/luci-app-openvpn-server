@@ -39,7 +39,7 @@ list.description = translate("Set route 192.168.0.0 255.255.255.0 and dhcp-optio
 local o
 o = s:taboption("basic", Button, "certificate", translate("OpenVPN Client config file"))
 o.inputtitle = translate("Download .ovpn file")
-o.description = translate("If you are using a client version earlier than iOS 10, please download this .ovpn file and send it via QQ or Email to your IOS device")
+o.description = translate("If you are using a client version earlier than iOS 11, please download this .ovpn file and send it via QQ or Email to your IOS device")
 o.inputstyle = "reload"
 o.write = function()
 	luci.sys.call("sh /etc/openvpn/genovpn.sh 2>&1 >/dev/null")
